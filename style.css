@@ -38,6 +38,8 @@
 .details{
   text-align: center;
   justify-content: center;
+  text-decoration: none;
+  list-style: none;
 }
 .details a{
   text-decoration: none;
