@@ -18,29 +18,35 @@
   padding: 20px 0;
   transition: all 0.5s ease;
 }
-.wrapper .sidebar .profile{
+.wrapper .sidebar .profile {
   margin-bottom: 30px;
   text-align: center;
 }
-.wrapper .sidebar .profile img{
+.wrapper .sidebar .profile img {
   border-radius: 50%;
   width: 100px;
   height: 100px;
 }
-.wrapper .sidebar .profile h3{
+.wrapper .sidebar .profile h3 {
   color: white;
   margin: 10px;
 }
-.wrapper .sidebar .profile p{
+.wrapper .sidebar .profile p {
   color: white;
   margin: 10px;
 }
-.details{
-  text-align: center;
-  justify-content: center;
-  text-decoration: none;
-  list-style: none;
+
+.wrapper .sidebar ul {
+  padding: 0;
 }
-.details a{
-  text-decoration: none;
+.wrapper .sidebar ul li a {
+  display: block;
+  padding: 13px 30px;
+  border-bottom: 1px solid #10558d;
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+}
+.wrapper .sidebar ul li a:hover {
+  color: #0c7db1;
 }
