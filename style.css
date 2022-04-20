@@ -50,11 +50,10 @@
   position: relative;
   text-decoration: none;
 }
-
 .wrapper .sidebar ul li a:hover {
   color: #0c7db1;
 }
-.wrapper .sidebar ul li .icon{
+.wrapper .sidebar ul li .material-icons{
   margin-right: 5px;
-  display: inline-block;
+  vertical-align: text-bottom;
 }
