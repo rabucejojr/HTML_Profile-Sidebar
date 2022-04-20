@@ -38,6 +38,8 @@
 
 .wrapper .sidebar ul {
   padding: 0;
+  text-align: center;
+  justify-content: center;
 }
 .wrapper .sidebar ul li a {
   display: block;
