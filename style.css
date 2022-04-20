@@ -29,11 +29,11 @@
 }
 .wrapper .sidebar .profile h3 {
   color: white;
-  margin: 10px;
+  margin: 0px 10px 0px 10px;
 }
 .wrapper .sidebar .profile p {
   color: white;
-  margin: 10px;
+  margin: 0px;
 }
 
 .wrapper .sidebar ul {
@@ -48,7 +48,13 @@
   color: rgb(241, 237, 237);
   font-size: 16px;
   position: relative;
+  text-decoration: none;
 }
+
 .wrapper .sidebar ul li a:hover {
   color: #0c7db1;
+}
+.wrapper .sidebar ul li .icon{
+  margin-right: 5px;
+  display: inline-block;
 }
