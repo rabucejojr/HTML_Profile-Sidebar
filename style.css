@@ -57,3 +57,15 @@
   margin-right: 5px;
   vertical-align: text-bottom;
 }
+
+.login-form{
+  background-color: #0c7db1;
+  width: auto;
+  height: 100vh;
+}
+.login-form .login{
+  background-color: beige;
+  width: 450px;
+  height: 450px;
+  
+}
